@@ -13,7 +13,7 @@ require (
 	github.com/grafeas/kritis v0.2.3-0.20210120183821-faeba81c520c
 	github.com/h2non/filetype v1.1.3
 	github.com/moby/buildkit v0.32.2
-	github.com/olekukonko/tablewriter v1.0.9
+	github.com/olekukonko/tablewriter v1.1.5
 	github.com/onsi/gomega v1.44.0
 	github.com/shurcooL/githubv4 v0.0.0-20201206200315-234843c633fa
 	github.com/shurcooL/graphql v0.0.0-20200928012149-18c5c3165e3a
@@ -24,8 +24,8 @@ require (
 	go.yaml.in/yaml/v2 v2.4.4
 	go.yaml.in/yaml/v3 v3.0.5
 	gocloud.dev v0.46.0
-	golang.org/x/text v0.42.0
-	golang.org/x/tools v0.49.0 // indirect
+	golang.org/x/text v0.43.0
+	golang.org/x/tools v0.51.0 // indirect
 	google.golang.org/genproto v0.0.0-20260715232425-e75dac1f907d // indirect
 	google.golang.org/protobuf v1.36.12
 	mvdan.cc/sh/v3 v3.14.1
@@ -34,17 +34,17 @@ require (
 require (
 	actionlint.kjanat.dev v1.17.0
 	github.com/caarlos0/env/v6 v6.10.1
-	github.com/gobwas/glob v0.2.3
+	github.com/gobwas/glob v1.0.0
 	github.com/google/go-github/v82 v82.0.0
 	github.com/google/osv-scalibr v0.5.3
 	github.com/google/osv-scanner/v2 v2.5.1
 	github.com/hmarr/codeowners v1.2.1
 	github.com/in-toto/attestation v1.2.0
-	github.com/onsi/ginkgo/v2 v2.33.0
+	github.com/onsi/ginkgo/v2 v2.33.1
 	github.com/ossf/osv-schema/bindings/go v0.0.0-20260730052020-9509daabeece
 	github.com/otiai10/copy v1.14.1
 	gitlab.com/gitlab-org/api/client-go v1.46.0
-	sigs.k8s.io/release-utils v0.11.1
+	sigs.k8s.io/release-utils v0.12.5
 )
 
 require (
@@ -82,6 +82,7 @@ require (
 	github.com/bmatcuk/doublestar/v4 v4.10.0 // indirect
 	github.com/canonical/chisel-manifest v1.2.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
+	github.com/clipperhouse/displaywidth v0.11.0 // indirect
 	github.com/clipperhouse/uax29/v2 v2.7.0 // indirect
 	github.com/cloudflare/circl v1.6.4 // indirect
 	github.com/cncf/xds/go v0.0.0-20260202195803-dba9d589def2 // indirect
@@ -154,8 +155,9 @@ require (
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/ncruces/go-strftime v1.0.0 // indirect
-	github.com/olekukonko/errors v1.1.0 // indirect
-	github.com/olekukonko/ll v0.0.9 // indirect
+	github.com/olekukonko/cat v0.0.0-20250911104152-50322a0618f6 // indirect
+	github.com/olekukonko/errors v1.2.0 // indirect
+	github.com/olekukonko/ll v0.1.6 // indirect
 	github.com/otiai10/mint v1.6.3 // indirect
 	github.com/owenrumney/go-sarif/v3 v3.3.1 // indirect
 	github.com/package-url/packageurl-go v0.1.6 // indirect
@@ -202,7 +204,7 @@ require (
 	go.uber.org/zap v1.28.0 // indirect
 	go.yaml.in/yaml/v4 v4.0.0-rc.6 // indirect
 	golang.org/x/mod v0.41.0 // indirect
-	golang.org/x/telemetry v0.0.0-20260811182544-a038080d80e5 // indirect
+	golang.org/x/telemetry v0.0.0-20260924152758-ed294f943157 // indirect
 	golang.org/x/term v0.46.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
 	golang.org/x/vuln v1.6.0 // indirect
@@ -262,7 +264,6 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/sergi/go-diff v1.4.0 // indirect
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
@@ -272,7 +273,7 @@ require (
 	golang.org/x/crypto v0.57.0 // indirect
 	golang.org/x/net v0.60.0 // indirect
 	golang.org/x/oauth2 v0.37.0
-	golang.org/x/sync v0.23.0 // indirect
+	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	google.golang.org/api v0.288.0 // indirect
